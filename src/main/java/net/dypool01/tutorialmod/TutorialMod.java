@@ -1,5 +1,6 @@
 package net.dypool01.tutorialmod;
 
+import net.dypool01.tutorialmod.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 import net.dypool01.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
