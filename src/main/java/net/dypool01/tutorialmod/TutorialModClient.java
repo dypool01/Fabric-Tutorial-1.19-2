@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod;
+package net.dypool01.tutorialmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

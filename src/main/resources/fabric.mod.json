@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "id": "tutorialmod",
-  "version": "${version}",
+  "version": "0.0.1-1.19.2",
 
   "name": "Tutorial Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Kaupenjoe"
+    "dypool01"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.kaupenjoe.tutorialmod.TutorialMod"
+      "net.dypool01.tutorialmod.TutorialMod"
     ],
     "client": [
-      "net.kaupenjoe.tutorialmod.TutorialModClient"
+      "net.dypool01.tutorialmod.TutorialModClient"
     ]
   },
   "mixins": [
