@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.dypool01.tutorialmod.item;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.dypool01.tutorialmod.TutorialMod;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
