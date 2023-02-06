@@ -1,5 +1,6 @@
 package net.dypool01.tutorialmod.item;
 
+import net.dypool01.tutorialmod.item.custom.EightBallItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.dypool01.tutorialmod.TutorialMod;
 import net.minecraft.item.Item;
@@ -11,6 +12,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
     public static final Item TANZANITE = registerItem("tanzanite",
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
+
+    public static final Item EIGHT_BALL = registerItem("eight_ball",
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.TANZANITE).maxCount(1)));
+            // in the line above the Item had to be changed to EightBallItem to make it a functional item.
 
 
     private static Item registerItem(String name, Item item) {
