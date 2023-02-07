@@ -1,6 +1,7 @@
 package net.dypool01.tutorialmod;
 
 import net.dypool01.tutorialmod.block.ModBlocks;
+import net.dypool01.tutorialmod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 import net.dypool01.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -17,5 +18,7 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModVillagers.registerVillagers();
+		ModVillagers.registerTrades();
 	}
 }
